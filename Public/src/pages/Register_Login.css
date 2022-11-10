@@ -1,0 +1,73 @@
+.FromContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: coloum;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background: linear-gradient(rgb(21, 160, 185), rgb(218, 204, 18));
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+img {
+    height: 5rem;
+    border-radius: 5rem;
+}
+
+.brand h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    background-color: rgba(245, 245, 220, 0.251);
+    border-radius: 2rem;
+    padding: 3rem 5rem;
+}
+
+.form input {
+    background-color: transparent;
+    padding: 1rem;
+    border: 0.15rem solid rgba(0, 0, 0, 0.604);
+    border-radius: 1rem;
+    color: black;
+    font-size: 1rem;
+}
+
+.form input:focus {
+    border: 0.2rem solid rgba(36, 142, 9, 0.806);
+    outline: none;
+}
+
+.form button {
+    background-color: rgba(6, 1, 10, 0.964);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: rgba(237, 234, 230, 0.83);
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.form span a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
